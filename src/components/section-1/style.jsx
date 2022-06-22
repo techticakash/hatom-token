@@ -1,8 +1,8 @@
-import { Paper } from "@mui/material";
-import styled from "styled-components";
-import Image from "../../assets/resources/assets-per-section/section1/bg.svg";
-import Image2 from "../../assets/resources/assets-per-section/section1/people.svg";
-import Image3 from "../../assets/resources/assets-per-section/section1/bubbleanimation.gif";
+import { Paper } from '@mui/material';
+import styled from 'styled-components';
+import Image from '../../assets/resources/assets-per-section/section1/bg.svg';
+import Image2 from '../../assets/resources/assets-per-section/section1/people.svg';
+import Image3 from '../../assets/resources/assets-per-section/section1/bubbleanimation.gif';
 
 const imgUrl = `url(${Image})`;
 // const imgUrl1 = `url(${Image1})`;

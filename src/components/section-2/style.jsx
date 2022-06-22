@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SectionContainer = styled.div`
   width: 100%;
@@ -12,7 +12,7 @@ marginTop: "35px"
 `;
 
 export const BlackFontAmount = styled.span`
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'Neue Haas Grotesk Text Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -20,7 +20,7 @@ export const BlackFontAmount = styled.span`
   color: #000000;
 `;
 export const GreenFontAmount = styled.span`
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'Neue Haas Grotesk Text Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -52,7 +52,7 @@ export const SubText = styled.span`
   left: 0px;
   top: 34px;
   color: #5c5c5c;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'Neue Haas Grotesk Text Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -64,7 +64,7 @@ export const SubText = styled.span`
 export const FeatureBlueColor = styled.h3`
   padding-right: 20px;
   padding-left: 117px;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'Neue Haas Grotesk Text Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -75,7 +75,7 @@ export const FeatureBlueColor = styled.h3`
   color: #3555f7;
 `;
 export const FeatureBlackColor = styled.h3`
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'Neue Haas Grotesk Text Pro';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -83,7 +83,7 @@ export const FeatureBlackColor = styled.h3`
   display: flex;
   align-items: center;
   text-align: center;
-  color: ${(props) => (props.color ? "#ffffff" : "#000000")} !important; ;
+  color: ${(props) => (props.color ? '#ffffff' : '#000000')} !important; ;
 `;
 export const FeatureHeading = styled.div`
   padding-left: 117px;
