@@ -1,4 +1,3 @@
 export const index = () => {
-    return <>6</>;
-  };
-  
+  return <>6</>;
+};

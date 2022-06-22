@@ -1,4 +1,4 @@
-import { Button, Grid, Item, Typography } from "@mui/material";
+import { Typography } from '@mui/material';
 import {
   BlackFontAmount,
   BuyTokenButton,
@@ -7,8 +7,8 @@ import {
   FeatureHeading,
   GreenFontAmount,
   HeaderStyle,
-  SectionContainer,
-} from "./style";
+  SectionContainer
+} from './style';
 const Section2 = () => {
   return (
     <>
@@ -27,9 +27,7 @@ const Section2 = () => {
         </HeaderStyle>
         <FeatureHeading>
           <FeatureBlueColor>Features</FeatureBlueColor>
-          <FeatureBlackColor color={false}>
-            of Hatom Protocol{" "}
-          </FeatureBlackColor>
+          <FeatureBlackColor color={false}>of Hatom Protocol </FeatureBlackColor>
         </FeatureHeading>
       </SectionContainer>
     </>
