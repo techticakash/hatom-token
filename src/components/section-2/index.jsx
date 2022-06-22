@@ -1,29 +1,22 @@
 import { Button, Grid, Item, Typography } from "@mui/material";
 import {
-  BlackFont,
   BlackFontAmount,
   BuyTokenButton,
-  BuyTokenButtonFont,
   FeatureBlackColor,
   FeatureBlueColor,
   FeatureHeading,
-  GreenFont,
+  GreenFontAmount,
+  HeaderStyle,
   SectionContainer,
 } from "./style";
 const Section2 = () => {
   return (
     <>
       <SectionContainer>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            marginTop: "35px"
-          }}
-        >
+        <HeaderStyle>
           <div>
             <BlackFontAmount>$9,449,627.26</BlackFontAmount>
-            <GreenFont>Dividends</GreenFont>
+            <GreenFontAmount>Dividends</GreenFontAmount>
             <Typography variant="body2" gutterBottom>
               Paid out to Hatom Token Holders over 3 years
             </Typography>
@@ -31,7 +24,7 @@ const Section2 = () => {
           <FeatureHeading>
             <BuyTokenButton>Buy Hatom Tokens</BuyTokenButton>
           </FeatureHeading>
-        </div>
+        </HeaderStyle>
         <FeatureHeading>
           <FeatureBlueColor>Features</FeatureBlueColor>
           <FeatureBlackColor color={false}>
