@@ -4,6 +4,13 @@ export const SectionContainer = styled.div`
   width: 100%;
   background: #f5f5f5 !important;
 `;
+
+export const HeaderStyle = styled.div`
+display: "flex",
+justifyContent: "space-around",
+marginTop: "35px"
+`;
+
 export const BlackFontAmount = styled.span`
   font-family: "Neue Haas Grotesk Text Pro";
   font-style: normal;
@@ -12,7 +19,7 @@ export const BlackFontAmount = styled.span`
   line-height: 34px;
   color: #000000;
 `;
-export const GreenFont = styled.span`
+export const GreenFontAmount = styled.span`
   font-family: "Neue Haas Grotesk Text Pro";
   font-style: normal;
   font-weight: 400;
