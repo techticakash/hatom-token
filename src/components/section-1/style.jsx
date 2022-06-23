@@ -1,36 +1,34 @@
-import { Paper } from "@mui/material";
-import styled from "styled-components";
-import Image from "../../assets/resources/assets-per-section/section1/bg.svg";
-import Image2 from "../../assets/resources/assets-per-section/section1/people.svg";
-import Image3 from "../../assets/resources/assets-per-section/section1/bubbleanimation.gif";
-
+import { Paper } from '@mui/material';
+import styled from 'styled-components';
+import Image from '../../assets/resources/assets-per-section/section1/bg.svg';
+import Image2 from '../../assets/resources/assets-per-section/section1/people.svg';
+import Image3 from '../../assets/resources/assets-per-section/section1/bubbleanimation.gif';
+import Machine from '../../assets/resources/assets-per-section/section1/machine.svg';
 const imgUrl = `url(${Image})`;
-// const imgUrl1 = `url(${Image1})`;
+const machine = `url(${Machine})`;
 const imgUrl2 = `url(${Image2})`;
 const bubbleanimation = `url(${Image3})`;
-
 export const ContainerImage = styled(Paper)`
   margin: auto;
   height: 100vh;
   width: auto;
-  // max-width: 1512px;
-  // max-height: 1127px;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom, center, center;
-  background-size: contain, cover, cover;
-  background-image: ${imgUrl2}, ${bubbleanimation}, ${imgUrl};
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, bottom, center, center;
+  background-size: cover, contain, cover, cover;
+  background-image: ${machine}, ${imgUrl2}, ${bubbleanimation}, ${imgUrl};
 `;
 export const Coin = styled.div`
   display: inline-block;
   position: relative;
   top: 200px;
   left: 43px;
-  opacity: 0.9;
-  transition: all 1s ease-in-out;
-  &:hover {
-    transform: rotate(180deg);
-    ::after {
-      transform: rotate(-180deg);
+  animation: rotation 5s infinite linear;
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
     }
   }
 `;
