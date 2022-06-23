@@ -7,9 +7,11 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-import Image1 from '../../assets/resources/assets-per-section/section1/coin.svg';
+import CoinImage from '../../assets/resources/assets-per-section/section1/coin.svg';
+
 export const Hero = () => {
   const navItems = ['Markets', 'Governance', 'Prices', 'Docs'];
+
   return (
     <ContainerImage>
       <AppBar
@@ -81,7 +83,7 @@ export const Hero = () => {
         </Typography>
         <Tagline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Tagline>
         <Coin>
-          <img src={Image1} alt="coin" />
+          <img src={CoinImage} alt="coin" />
         </Coin>
       </Box>
     </ContainerImage>

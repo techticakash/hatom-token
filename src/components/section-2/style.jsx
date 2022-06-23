@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const SectionContainer = styled.div`
   background: #f5f5f5 !important;
   padding: 40px 126px 177px 117px;
+  .sub-container {
+    display: flex;
+    justify-content: space-around;
+  }
 `;
 export const BlackFontAmount = styled.span`
   font-size: 34px;
@@ -46,6 +50,21 @@ export const FeatureContent = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  .feature-sub-style {
+    max-width: 295;
+    margin-bottom: 100;
+  }
+  .feature-sub-style-borrow {
+    max-width: 295;
+  }
+  .feature-img {
+    position: relative;
+    left: -4px;
+    top: -28px;
+  }
+  .dividends {
+    max-width: 295;
+  }
 `;
 export const FeatureHeading = styled.div`
   margin-top: 100px;
@@ -53,6 +72,10 @@ export const FeatureHeading = styled.div`
   font-size: 40px;
   line-height: 50px;
   color: #3555f7;
+  span {
+    font-weight: 500;
+    color: #000000;
+  }
 `;
 export const FeatureSubHeading = styled.div`
   font-weight: 500;
